@@ -16,7 +16,7 @@ def self.post_counter
 end
 
 def author_name
-  if Author.name.nil?
+  if @name.nil?
     nil
   else self.author.name
   end
