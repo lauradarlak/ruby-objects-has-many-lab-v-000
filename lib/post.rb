@@ -18,7 +18,7 @@ end
 def author_name
   if @name == nil
     nil
-  else self.author.name
+  else @author.name
   end
 
 end
