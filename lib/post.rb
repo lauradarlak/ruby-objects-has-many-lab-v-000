@@ -16,11 +16,12 @@ def self.post_counter
 end
 
 def author_name
-  if @name == nil
+  if @author == nil
     nil
-  else @author.name
+  else self.author.name
   end
-
 end
+
+
 
 end
